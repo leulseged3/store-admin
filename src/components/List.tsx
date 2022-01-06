@@ -35,6 +35,9 @@ export default () => {
   }
 
   return (
+    <>
+    <h2 style={{ textAlign:'center'}}>Store Items List</h2>
+    <hr />
     <List
       className="demo-loadmore-list"
       loading={loading}
@@ -53,5 +56,6 @@ export default () => {
         </List.Item>
       )}
     />
+    </>
   )
 }

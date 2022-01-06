@@ -34,7 +34,7 @@ export default () => {
           type="text"
           onClick={onLogoutButtonClick}
         >
-          LOGOUT
+          LOG OUT
         </Button>
       </Menu.Item>
     </Menu>
